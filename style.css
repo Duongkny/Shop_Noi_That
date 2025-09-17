@@ -155,3 +155,61 @@
 .container-banner .row .column .column-text-h2 .column-text-link .t2:hover{
     color: #106f85;
 }
+ 
+/* mobile */
+@media (max-width: 768px){
+    .navbar .navbar-row{
+        flex-direction: column;
+    }
+    .navbar .navbar-row .navbar-column .navbar-seacrch{
+        padding: 10px 20px 10px 20px;
+        width: 100%;
+    }
+    .navbar2 .navbar-row{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .container-banner .row{
+        flex-direction: column;
+    }
+    .container-banner .row .column .column-text-h2{
+        margin: 20px;
+    }
+    .container-banner .row .column .column-text-h2::before{
+        width: 150px;
+        top: -10px;
+    }
+    .container-banner .row .column .column-text-h2::after{
+        width: 150px;
+        bottom: -10px;
+    }
+}
+/* tablet */
+@media (min-width: 769px) and (max-width: 1024px    
+){
+    .navbar .navbar-row{
+        flex-direction: column;
+    }
+    .navbar .navbar-row .navbar-column .navbar-seacrch{
+        padding: 10px 100px 10px 20px;
+        width: 100%;
+    }
+    .navbar2 .navbar-row{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .container-banner .row{
+        flex-direction: column;
+    }
+    .container-banner .row .column .column-text-h2{
+        margin: 30px;
+    }
+    .container-banner .row .column .column-text-h2::before{
+        width: 200px;
+        top: -15px;
+    }
+    .container-banner .row .column .column-text-h2::after{
+        width: 200px;
+        bottom: -15px;
+    }
+}
