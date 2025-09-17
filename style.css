@@ -197,6 +197,11 @@
         width: 150px;
         bottom: -10px;
     }
+    .footer .footer-section{
+        text-align: center;
+    }
+
+
 }
 /* tablet */
 @media (min-width: 769px) and (max-width: 1024px    
@@ -225,5 +230,8 @@
     .container-banner .row .column .column-text-h2::after{
         width: 200px;
         bottom: -15px;
+    }
+    .footer .footer-section{
+        text-align: center;
     }
 }
